@@ -9,9 +9,9 @@ export default function Home() {
         Ir a <Link href="/about">About</Link>
       </h1>
 
-      <p className="description">
+      <p className={'description'}>
         Get started by editing{' '}
-        <code className="code">pages/index.jsx</code>
+        <code className={'code'}>pages/index.jsx</code>
       </p>
     </MainLayout>
   )

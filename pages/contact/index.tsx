@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import { MainLayout } from '../../components/layouts/MainLayout'
 
-export default function ConcatPage() {
+export default function ContactPage() {
   return (
     <MainLayout>
-      <h1>Concat Page</h1>
+      <h1>Contact Page</h1>
 
       <h1 className="title">
         Ir a <Link href="/">Home</Link>
@@ -12,7 +12,7 @@ export default function ConcatPage() {
 
       <p className="description">
         Get started by editing{' '}
-        <code className="code">pages/concat.jsx</code>
+        <code className="code">pages/contact.jsx</code>
       </p>
     </MainLayout>
   )

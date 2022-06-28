@@ -1,5 +1,10 @@
+import { FC, ReactNode } from "react"
 
-const DarkLayout = ({ children }) => {
+interface ComponentNameProps {
+  children: ReactNode,
+}
+
+const DarkLayout: FC<ComponentNameProps> = ({ children }) => {
   return (
     <div style={{
         backgroundColor: 'rgba(0,0,0,0.3)',
